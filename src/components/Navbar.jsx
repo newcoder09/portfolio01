@@ -1,6 +1,9 @@
 import React, {useState} from 'react'
-import {FaBars, FaTimes } from 'react-icons/fa';
+import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa';
+import { HiOutlineMail } from 'react-icons/hi';
+import { BsFillPersonalLinesFill} from 'react-icons/bs';
 import Logo from '../assets/logo.png';
+
 
 
 const Navbar = () => {
@@ -22,10 +25,10 @@ const Navbar = () => {
     </ul>
     </div>
 
-    {/* show only when screen is middle opened, z-10 hamburger button*/}
+    {/* show only when screen is middle opened, z-10 hamburger button, cross if not hamburger*/}
 
 <div onClick={handleClick} className='md:hidden z-10'>
-  <FaBars/>
+  {!nav ? <FaBars /> : <FaTimes />}
 </div>
 
 
@@ -39,7 +42,17 @@ const Navbar = () => {
     </ul>
 
 
-<div className='hidden'>
+<div className='flex fixed flex-col top-[35%] left-0'>
+<ul>
+  <li>
+    <a href='/'>
+Linkedin <FaLinkedin />
+</a>
+  </li>
+  <li></li>
+  <li></li>
+
+</ul>
 
 </div>
 
