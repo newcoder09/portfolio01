@@ -42,30 +42,30 @@ const Navbar = () => {
     </ul>
 
 {/* these are the hovering and sliding icons to the left of the screen */}
-<div className='flex fixed flex-col top-[35%] left-0'>
+<div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
 <ul>
-  <li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-blue-500'>
+  <li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-gray-400'>
     <a className='flex justify-between items-center w-full text-gray-100'
     href='/'>
   Linkedin <FaLinkedin size={30}  />
 </a>
 </li>
 
-<li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-blue-500'>
+<li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-[#333333]'>
     <a className='flex justify-between items-center w-full text-gray-100'
     href='/'>
   Github<FaGithub size={30}  />
 </a>
 </li>
 
-<li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-blue-500'>
+<li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-gray-500'>
     <a className='flex justify-between items-center w-full text-gray-100'
     href='/'>
   Email <HiOutlineMail size={30}  />
 </a>
 </li>
 
-<li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-blue-500'>
+<li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-gray-700'>
     <a className='flex justify-between items-center w-full text-gray-100'
     href='/'>
   CV <BsFillPersonLinesFill size={30}  />
