@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#64676b] text-gray-200'>
     <div>
-    <img src={Logo} alt="Logo Image" style={{width: '80px'}} />
+    <img src={Logo} alt="Logo Image" style={{width: '140px'}} />
     </div>
     
     <div className='hidden md:flex'>
