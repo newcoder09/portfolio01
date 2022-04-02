@@ -67,13 +67,13 @@ React & Next JS App
         </div>
 
   {/* Grid 3 */}
-  <div style={{backgroundImage: `url(${boostcamp})`}} 
+  <div style={{backgroundImage: `url(${comingsoon})`}} 
         className='shadow-lg shadow-[#c040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
 
         {/* hover effect */}
         <div className='opacity-0 group-hover:opacity-100'>
           <span className='text-2xl font-bold text-white tracking-wider'>
-React JS App
+Coder in the making!
           </span>
           <div className='pt-8 text-center'>
 <a href="/">
@@ -94,13 +94,13 @@ React JS App
         </div>
 
           {/* Grid 4 */}
-          <div style={{backgroundImage: `url(${boostcamp})`}} 
+          <div style={{backgroundImage: `url(${comingsoon})`}} 
         className='shadow-lg shadow-[#c040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
 
         {/* hover effect */}
         <div className='opacity-0 group-hover:opacity-100'>
           <span className='text-2xl font-bold text-white tracking-wider'>
-React JS App
+Coder in the making!
           </span>
           <div className='pt-8 text-center'>
 <a href="/">
@@ -120,13 +120,13 @@ React JS App
 
         </div>
           {/* Grid 5 */}
-          <div style={{backgroundImage: `url(${boostcamp})`}} 
+          <div style={{backgroundImage: `url(${comingsoon})`}} 
         className='shadow-lg shadow-[#c040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
 
         {/* hover effect */}
         <div className='opacity-0 group-hover:opacity-100'>
           <span className='text-2xl font-bold text-white tracking-wider'>
-React JS App
+Coder in the making!
           </span>
           <div className='pt-8 text-center'>
 <a href="/">
@@ -147,13 +147,13 @@ React JS App
         </div>
 
           {/* Grid 6 */}
-          <div style={{backgroundImage: `url(${boostcamp})`}} 
+          <div style={{backgroundImage: `url(${comingsoon})`}} 
         className='shadow-lg shadow-[#c040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
 
         {/* hover effect */}
         <div className='opacity-0 group-hover:opacity-100'>
           <span className='text-2xl font-bold text-white tracking-wider'>
-React JS App
+Coder in the making!
           </span>
           <div className='pt-8 text-center'>
 <a href="/">

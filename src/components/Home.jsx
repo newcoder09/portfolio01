@@ -13,7 +13,7 @@ const Home = () => {
      I knew I wanted to learn more. At the moment I am expanding on the 
      skills introduced at Bootcamp.</p>
      <div>
-       <button className='text-black group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-500 hover:border-pink-500'>
+       <button className='text-black font-medium group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-500 hover:border-pink-500'>
        View Projects
        <span className='group-hover:rotate-90 duration-300'>
               <HiArrowNarrowRight className='ml-3 ' />
