@@ -11,7 +11,7 @@ const Projects = () => {
     <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
       <div className='pb-8'>
         <p className='text-3xl font-medium inline border-b-4 text-gray-200 border-pink-500'>Projects</p>
-        <p className='py-6'>Learning & Creating</p>
+        <p className='py-1'>Learning & Creating</p>
       </div>
 
       {/* grid container */}

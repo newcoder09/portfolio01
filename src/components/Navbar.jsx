@@ -15,15 +15,25 @@ const Navbar = () => {
     <img src={Logo} alt="Logo Image" style={{width: '140px'}} />
     </div>
     
-    <div className='hidden md:flex'>
-      <ul className='flex'>
-      <li>Home</li>
-      <li>About</li>
-      <li>Skills</li>
-      <li>Work</li>
-      <li>Contact</li>
+    <ul className='hidden md:flex'>
+      
+      <li>
+     <a href='/'> Home</a>
+      </li>
+      <li>
+      <a href='/about'>About</a>
+      </li>
+      <li>
+      <a href='/skills'>Skills</a>
+      </li>
+      <li>
+      <a href='/projects'>Projects</a>
+      </li>
+      <li>
+      <a href='/contact'>Contact</a>
+      </li>
+    
     </ul>
-    </div>
 
     {/* show only when screen is middle opened, z-10 hamburger button, cross if not hamburger*/}
 
@@ -34,11 +44,22 @@ const Navbar = () => {
 
 <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#64676b] flex flex-col justify-center items-center'}>
 
-      <li className='py-6 text -3xl'>Home</li>
-      <li className='py-6 text -3xl'>About</li>
-      <li className='py-6 text -3xl'>Skills</li>
-      <li className='py-6 text -3xl'>Work</li>
-      <li className='py-6 text -3xl'>Contact</li>
+      <li className='py-6 text -3xl'>
+      <a href='/'>Home</a>
+      </li>
+
+      <li className='py-6 text -3xl'>
+      <a href='/about'>About</a>
+      </li>
+      <li className='py-6 text -3xl'>
+      <a href='/skills'>Skills</a>
+      </li>
+      <li className='py-6 text -3xl'>
+      <a href='/projects'>Projects</a>
+      </li>
+      <li className='py-6 text -3xl'>
+      <a href='/contact'>Contact</a>
+      </li>
     </ul>
 
 {/* these are the hovering and sliding icons to the left of the screen */}
@@ -46,7 +67,7 @@ const Navbar = () => {
 <ul>
   <li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-gray-400'>
     <a className='flex justify-between items-center w-full text-gray-100'
-    href='/'>
+    href='https://www.linkedin.com/in/elena-s-047171/'>
   Linkedin <FaLinkedin size={30}  />
 </a>
 </li>
