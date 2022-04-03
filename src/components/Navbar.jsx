@@ -67,21 +67,21 @@ const Navbar = () => {
 <ul>
   <li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-gray-400'>
     <a className='flex justify-between items-center w-full text-gray-100'
-    href='https://www.linkedin.com/in/elena-s-047171/'>
+   href="https://www.linkedin.com/in/elena-s-047171/" target="_blank" rel="noreferrer noopener">
   Linkedin <FaLinkedin size={30}  />
 </a>
 </li>
 
-<li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-[#333333]'>
+<li className='w-[150px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
     <a className='flex justify-between items-center w-full text-gray-100'
-    href='/'>
+    href="https://github.com/newcoder09/" target="_blank" rel="noreferrer noopener">
   Github<FaGithub size={30}  />
 </a>
 </li>
 
 <li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-gray-500'>
     <a className='flex justify-between items-center w-full text-gray-100'
-    href='/'>
+     href="mailto:elenasouto@gmail.com?body=My custom mail body">
   Email <HiOutlineMail size={30}  />
 </a>
 </li>
