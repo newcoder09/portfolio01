@@ -1,3 +1,9 @@
+Hello! 
+
+Thanks for taking the time to look at my project. This project was set up to create a portfolio for my work and also to practise
+React and Tailwind. 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

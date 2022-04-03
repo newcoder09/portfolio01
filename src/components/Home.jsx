@@ -1,6 +1,9 @@
 import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi';
 
+
+
+
 const Home = () => {
   return (
     <div name='home' className='w-full h-screen bg-[#64676b]'>
@@ -13,8 +16,8 @@ const Home = () => {
      I knew I wanted to learn more. At the moment I am expanding on the 
      skills introduced at Bootcamp.</p>
      <div>
-    
-     
+    <div>
+     <a href="/projects">
        <button className='text-black font-medium group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-500 hover:border-pink-500'>
        View Projects
        
@@ -24,9 +27,9 @@ const Home = () => {
 </span>
 
        
-       </button>
+       </button></a>
       
-       
+       </div>
        
      </div>
     </div>
