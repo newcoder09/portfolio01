@@ -28,12 +28,12 @@ const Projects = () => {
 React & Next JS App
           </span>
           <div className='pt-8 text-center'>
-<a href="https://boostcamp.netlify.app">
+<a href="https://boostcamp.netlify.app"target="_blank" rel="noreferrer noopener">
   <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-400 text-gray-100 font-bold text-lg'>
   Demo
   </button>
 </a>
-<a href="https://github.com/newcoder09/Boostcamp-Landing-Page">
+<a href="https://github.com/newcoder09/Boostcamp-Landing-Page"target="_blank" rel="noreferrer noopener">
   <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-400 text-gray-100 font-bold text-lg'>
   Code
   </button>
@@ -52,12 +52,12 @@ React & Next JS App
  JS & Fetch Requests
           </span>
           <div className='pt-8 text-center'>
-<a href="https://authorquote.netlify.app/">
+<a href="https://authorquote.netlify.app/"target="_blank" rel="noreferrer noopener">
   <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-400 text-gray-100 font-bold text-lg'>
   Demo
   </button>
 </a>
-<a href="https://github.com/newcoder09/Quote_Generator">
+<a href="https://github.com/newcoder09/Quote_Generator"target="_blank" rel="noreferrer noopener">
   <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-400 text-gray-100 font-bold text-lg'>
   Code
   </button>
