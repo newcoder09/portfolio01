@@ -15,16 +15,16 @@ const About = () => {
       <div className='max-w-[1000] w-full grid sm:grid-cols-2 gap-8 px-6'>
     
       <div className='sm:text-right sm:text-3xl font-bold text-[#F9F6EE]'>
-          <p >TEXT Thank you so much for visiting my site. I have been a SAHM for a while.TEXT</p>
+          <p >Thank you for visiting my site. Please browse around and check out 
+          what I have been learning.</p>
       </div>
       <div>
-          <p>TEXT GOES HERE: A highly motivated and enthusiastic bi-lingual(Spanish), junior developer, with experience 
-          in industry best practice. I am seeking 
-          a role that will allow me to contribute to a company by further implementing the skills 
-          that have been introduced 
-          at bootcamp and adding value to the company. Exceptional communication skills, highly 
-          adaptable and flexible. 
-          Dedicated to team work and courageous to try new things and eager to learn.TEXT </p>
+          <p> My goal was to set myself the challenge of trying something completely new. I wanted to make changes and develop myself continuosly.  
+          I signed up for the School of Code bootcamp. </p>
+          <p>My journey was exciting, challenging and extremely difficult. 
+         With my graduation behind me, I'm looking for that opportunity to enter the world of Tech. I want to enhance my coding
+         skills and contribute to the success of a Company.</p>
+          
       </div>
       </div>
       </div>
