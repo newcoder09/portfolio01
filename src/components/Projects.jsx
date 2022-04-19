@@ -1,6 +1,7 @@
 import React from 'react'
 import boostcamp from '../assets/boostcamp.jpg'
 import quotegenerator from '../assets/quotegenerator.jpg'
+import scrollandscroll from '../assets/scrollandscroll.jpg'
 import comingsoon from '../assets/comingsoon.jpg'
 
 
@@ -67,21 +68,21 @@ React & Next JS App
         </div>
 
   {/* Grid 3 */}
-  <div style={{backgroundImage: `url(${comingsoon})`}} 
+  <div style={{backgroundImage: `url(${scrollandscroll})`}} 
         className='shadow-lg shadow-[#c040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
 
         {/* hover effect */}
         <div className='opacity-0 group-hover:opacity-100'>
           <span className='text-2xl font-bold text-white tracking-wider'>
-Coder in the making!
+    Scrolling  Unsplash & JS
           </span>
           <div className='pt-8 text-center'>
-<a href="/">
+<a href="https://scrollingandscrolling.netlify.app"target="_blank" rel="noreferrer noopener">
   <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-400 text-gray-100 font-bold text-lg'>
   Demo
   </button>
 </a>
-<a href="/">
+<a href="https://github.com/newcoder09/scrollAndScroll.git"target="_blank" rel="noreferrer noopener">
   <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-400 text-gray-100 font-bold text-lg'>
   Code
   </button>
@@ -100,7 +101,7 @@ Coder in the making!
         {/* hover effect */}
         <div className='opacity-0 group-hover:opacity-100'>
           <span className='text-2xl font-bold text-white tracking-wider'>
-Coder in the making!
+Dev in the making!
           </span>
           <div className='pt-8 text-center'>
 <a href="/">
@@ -126,7 +127,7 @@ Coder in the making!
         {/* hover effect */}
         <div className='opacity-0 group-hover:opacity-100'>
           <span className='text-2xl font-bold text-white tracking-wider'>
-Coder in the making!
+Dev in the making!
           </span>
           <div className='pt-8 text-center'>
 <a href="/">
@@ -153,7 +154,7 @@ Coder in the making!
         {/* hover effect */}
         <div className='opacity-0 group-hover:opacity-100'>
           <span className='text-2xl font-bold text-white tracking-wider'>
-Coder in the making!
+Dev in the making!
           </span>
           <div className='pt-8 text-center'>
 <a href="/">
